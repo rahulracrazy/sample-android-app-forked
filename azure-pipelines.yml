@@ -27,6 +27,3 @@ steps:
     jdkVersionOption: '1.8'
     gradleOptions: '-Xmx3072m'
     sonarQubeRunAnalysis: false
-- task: AndroidSigning@3
-  inputs:
-    apkFiles: '**/*.apk'
